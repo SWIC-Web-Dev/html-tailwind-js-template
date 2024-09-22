@@ -6,7 +6,13 @@
     "source.organizeImports": "explicit"
   },
   "editor.bracketPairColorization.enabled": true,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
   "editor.formatOnSave": true,
   "editor.wordWrap": "wordWrapColumn",
   "eslint.format.enable": true,
