@@ -6,22 +6,16 @@
     "source.organizeImports": "explicit"
   },
   "editor.bracketPairColorization.enabled": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.formatOnSave": true,
   "editor.wordWrap": "wordWrapColumn",
-  "eslint.rules.customizations": [
-    {
-      "rule": "*",
-      "severity": "warn"
-    }
-  ],
-  "eslint.validate": ["typescript", "typescriptreact"],
+  "eslint.format.enable": true,
   "files.autoSave": "onFocusChange",
   "javascript.autoClosingTags": true,
   "javascript.inlayHints.parameterNames.enabled": "none",
   "javascript.inlayHints.variableTypes.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.validate.enable": true,
+  "javascript.validate.enable": false,
   "prettier.requireConfig": true,
   "tailwindCSS.experimental.classRegex": [
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
